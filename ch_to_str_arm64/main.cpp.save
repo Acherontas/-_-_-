@@ -1,0 +1,30 @@
+#include <iostream>
+#include <string>
+#include <cstring>
+
+using namespace std;
+
+int main()
+{
+  char* cp;
+  cp=(char*)malloc(sizeof(char)*100);
+  char ci;
+  for(int i=0;i<=9;i++){
+     cout<<"enter char \n";
+     cin>>ci;
+     cp[i]=ci;
+  }
+  cout<<"ending with :: ";
+  cout<<cp;
+
+  cout<<"\n";
+  char co[2];
+  co[0]='a';
+  co[1]='b';
+  co[2]='\0';
+  cout<<"\n";
+  cout<< &co  <<" " << co <<"\n";
+  printf("all of it %s\n",co);
+  printf("%c\n",co[0]);
+  return 0;
+}

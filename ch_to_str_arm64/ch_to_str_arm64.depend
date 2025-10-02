@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1759386346 source:/home/acherontas/codeblocks/ch_to_str_arm64/main.cpp
+	<iostream>
+	<string>
+	<cstring>
+	"charheader.h"
+	"intheader.h"
+
+1759385739 source:/home/acherontas/codeblocks/ch_to_str_arm64/charheader.cpp
+	"charheader.h"
+
+1759385760 /home/acherontas/codeblocks/ch_to_str_arm64/charheader.h
+	<iostream>
+
+1759386272 /home/acherontas/codeblocks/ch_to_str_arm64/intheader.h
+	<iostream>
+
